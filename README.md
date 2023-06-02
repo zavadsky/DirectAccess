@@ -5,4 +5,4 @@ To run the program, refer to the main.cpp file. The program performs the followi
 
 To run the program, provide one command line argument: the name of the file containing the integer sequence. 
 You can find test data for this program at https://drive.google.com/file/d/1BbyUif9FcJJaQWPIimLyvJVOSuMxRvE7/view?usp=sharing. 
-The test data includes two files with integers generated from a 200MB English text from Pizza&Chilie corpus. The integers represent the indices of text symbols in the alphabet, sorted by descending frequencies. In the bigger file, the alphabet is composed of pairs of characters, while in the smaller file it is composed of words of a text.
+The test data includes two files with integers generated from a 200MB English text from the Pizza&Chilie corpus. The integers represent the indices of text symbols in the alphabet, sorted by descending frequencies. In the bigger file, the alphabet is composed of pairs of characters, while in the smaller file, it is composed of words of the text.
