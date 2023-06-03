@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
     start = std::chrono::high_resolution_clock::now();    // time count
     int s=0;
     for(int i=0;i<iter;i++) {
-        s=RMDsearch_rev_delta(codes,rands[i]);
+        s+=RMDsearch_rev_delta(codes,rands[i]);
             //Validate extraction correctness
             /*if(ranks[rands[i]]!=s) {
                 cout<<"!!!!!="<<i<<" ranks[i]="<<ranks[i]<<" s="<<s;
@@ -48,6 +48,6 @@ int main(int argc, char *argv[]) {
             }*/
         }
     stop = std::chrono::high_resolution_clock::now();   // time count
-    auto stand=(double)chrono::duration_cast<std::chrono::nanoseconds>( stop - start ).count() / double(iter);
+    auto stand=(double)chrono::duration_cast<std::chrono::nanoseconds>( stop - start ).count() / double(iter); // average execution time
     cout<<endl<<"!"<<s<<"! Time="<<stand;
 }
