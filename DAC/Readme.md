@@ -14,4 +14,6 @@ The input test data should be stored in files in the program directory:
 - a0.bin,...,aK.bin - 4- or 8-bit integer chunks;
 - b0.bin,...,bK.bin - bitstreams denoting the chunk existance.
 
+You can find test data for this program at https://drive.google.com/file/d/1Bx6Web0JB5IHGO6wwO2lNYFklted5g6r/view?usp=sharing. The test integers generated from a 200MB English text from the Pizza&Chilie corpus, representing the indices of text symbols in the alphabet, sorted by descending frequencies. The alphabet is composed of words of the text. Chunk size b=4.
+
 [1] Nieves R. Brisaboa, Susana Ladra, and Gonzalo Navarro. Directly addressable variable-length codes. In Jussi Karlgren, Jorma Tarhio, and Heikki Hyyr¨o, editors, String Processing and Information Retrieval, pages 122–130, Berlin, Heidelberg, 2009. Springer Berlin Heidelberg.
